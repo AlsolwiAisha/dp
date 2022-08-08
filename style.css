@@ -1,43 +1,43 @@
-*{direction: rtl;
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+
+*{
+
+direction: rtl;
+font-family: Tajawal;
+
 }
-*{font-family: vip hala;
-}
-#website_header{
-color: rgb(228, 120, 49);
-font: weight 600px;
-font-size: 40px;
-font-family: VIP Hala;
+
+.title {
+
 text-align: center;
-
-
+margin-bottom: 25px;
+font-weight: bold;
+font-size: 25px;
+background-color: #1a2537;
+border-bottom-left-radius: 25px;
+border-bottom-right-radius: 25px;
+display: inline-flex;
+padding: 20px;
+color: white;
 }
-.website_wrpper{
-    font-family: vip hala;
-    direction: ltr;
-    font-size: 50px;
-    border: solid 10px;
-    border-color: #a55eea;
-    border-radius: 100px;
+
+.button {
+    background-color: #dc9859; /* Green */
+    border: none;
+    color: white;
+    padding: 8px;
     text-align: center;
-    padding: 10px 25px 30px 10px;
-    margin: 0 25px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 25px;
+    font-weight: bold;
+  }
+  
 
-}
-h1{
-    color: rgb(255, 255, 255);
-    width: 300px;
-    height: 300px;
-    background-image: url('images/pic.jpg');
-    background-position: left;
-    background-attachment: fixed;
-}
+  .text-center{
 
-    .example{
-        width: 200px;
-
-    }
-    .par{
-        color:rgb(228, 120, 49)
-    }
-
-
+    text-align: center;
+  }
